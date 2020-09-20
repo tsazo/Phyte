@@ -11,11 +11,14 @@
 		3DA55BA7251703D7008417D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA55BA6251703D7008417D1 /* GoogleService-Info.plist */; };
 		3DD9697725168FEE0082586F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697625168FEE0082586F /* AppDelegate.swift */; };
 		3DD9697925168FEE0082586F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697825168FEE0082586F /* SceneDelegate.swift */; };
-		3DD9697B25168FEE0082586F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697A25168FEE0082586F /* ViewController.swift */; };
 		3DD9697E25168FEE0082586F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9697C25168FEE0082586F /* Main.storyboard */; };
 		3DD9698025168FF40082586F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9697F25168FF40082586F /* Assets.xcassets */; };
 		3DD9698325168FF40082586F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9698125168FF40082586F /* LaunchScreen.storyboard */; };
 		8531B4639F210986C1776BE0 /* Pods_Phyte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709763A6B9DE20D2912C709D /* Pods_Phyte.framework */; };
+		8BEDF8C325173B6300DAB577 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BEDF8C225173B6300DAB577 /* Pacifico-Regular.ttf */; };
+		8BEDF8C525173B6A00DAB577 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BEDF8C425173B6A00DAB577 /* Lato-Regular.ttf */; };
+		8BEDF8CA25173B8F00DAB577 /* Courgette-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BEDF8C925173B8F00DAB577 /* Courgette-Regular.ttf */; };
+		8BEDF8CB25173C9700DAB577 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697A25168FEE0082586F /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,15 +26,19 @@
 		3DA55BA42516DA72008417D1 /* Phyte.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Phyte.storyboard; sourceTree = "<group>"; };
 		3DA55BA6251703D7008417D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3DD9697325168FEE0082586F /* Phyte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phyte.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DD9697625168FEE0082586F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DD9697825168FEE0082586F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3DD9697A25168FEE0082586F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DD9697625168FEE0082586F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Phyte/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3DD9697825168FEE0082586F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Phyte/SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3DD9697A25168FEE0082586F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Phyte/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		3DD9697D25168FEE0082586F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DD9697F25168FF40082586F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DD9698225168FF40082586F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DD9698425168FF40082586F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BCD17F95953C9B4C532C4AF /* Pods-Phyte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phyte.debug.xcconfig"; path = "Target Support Files/Pods-Phyte/Pods-Phyte.debug.xcconfig"; sourceTree = "<group>"; };
 		709763A6B9DE20D2912C709D /* Pods_Phyte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phyte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEDF8C225173B6300DAB577 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		8BEDF8C425173B6A00DAB577 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "../../../Downloads/Lato/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		8BEDF8C825173B7900DAB577 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		8BEDF8C925173B8F00DAB577 /* Courgette-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Courgette-Regular.ttf"; path = "../../../Downloads/Courgette/Courgette-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +82,10 @@
 		3DD9697525168FEE0082586F /* Phyte */ = {
 			isa = PBXGroup;
 			children = (
+				8BEDF8C125173B5200DAB577 /* Fonts */,
 				3DD9697625168FEE0082586F /* AppDelegate.swift */,
 				3DD9697825168FEE0082586F /* SceneDelegate.swift */,
-				3DD9697A25168FEE0082586F /* ViewController.swift */,
+				3DD9697A25168FEE0082586F /* ContentView.swift */,
 				3DD9697C25168FEE0082586F /* Main.storyboard */,
 				3DA55BA42516DA72008417D1 /* Phyte.storyboard */,
 				3DD9697F25168FF40082586F /* Assets.xcassets */,
@@ -86,6 +94,18 @@
 				3DA55BA6251703D7008417D1 /* GoogleService-Info.plist */,
 			);
 			path = Phyte;
+			sourceTree = "<group>";
+		};
+		8BEDF8C125173B5200DAB577 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8BEDF8C425173B6A00DAB577 /* Lato-Regular.ttf */,
+				8BEDF8C225173B6300DAB577 /* Pacifico-Regular.ttf */,
+				8BEDF8C825173B7900DAB577 /* Lato-Light.ttf */,
+				8BEDF8C925173B8F00DAB577 /* Courgette-Regular.ttf */,
+			);
+			name = Fonts;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B0487F3EECF373C172A48A05 /* Pods */ = {
@@ -159,7 +179,10 @@
 			files = (
 				3DD9698325168FF40082586F /* LaunchScreen.storyboard in Resources */,
 				3DA55BA52516DA72008417D1 /* Phyte.storyboard in Resources */,
+				8BEDF8CA25173B8F00DAB577 /* Courgette-Regular.ttf in Resources */,
 				3DA55BA7251703D7008417D1 /* GoogleService-Info.plist in Resources */,
+				8BEDF8C325173B6300DAB577 /* Pacifico-Regular.ttf in Resources */,
+				8BEDF8C525173B6A00DAB577 /* Lato-Regular.ttf in Resources */,
 				3DD9698025168FF40082586F /* Assets.xcassets in Resources */,
 				3DD9697E25168FEE0082586F /* Main.storyboard in Resources */,
 			);
@@ -214,9 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD9697B25168FEE0082586F /* ViewController.swift in Sources */,
 				3DD9697725168FEE0082586F /* AppDelegate.swift in Sources */,
 				3DD9697925168FEE0082586F /* SceneDelegate.swift in Sources */,
+				8BEDF8CB25173C9700DAB577 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
