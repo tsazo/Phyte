@@ -3,21 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3DA55BA52516DA72008417D1 /* Phyte.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA55BA42516DA72008417D1 /* Phyte.storyboard */; };
+		3DA55BA7251703D7008417D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA55BA6251703D7008417D1 /* GoogleService-Info.plist */; };
 		3DD9697725168FEE0082586F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697625168FEE0082586F /* AppDelegate.swift */; };
 		3DD9697925168FEE0082586F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697825168FEE0082586F /* SceneDelegate.swift */; };
 		3DD9697B25168FEE0082586F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697A25168FEE0082586F /* ViewController.swift */; };
 		3DD9697E25168FEE0082586F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9697C25168FEE0082586F /* Main.storyboard */; };
 		3DD9698025168FF40082586F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9697F25168FF40082586F /* Assets.xcassets */; };
 		3DD9698325168FF40082586F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD9698125168FF40082586F /* LaunchScreen.storyboard */; };
+		8531B4639F210986C1776BE0 /* Pods_Phyte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709763A6B9DE20D2912C709D /* Pods_Phyte.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CD4B28F66B996D84F14D745 /* Pods-Phyte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phyte.release.xcconfig"; path = "Target Support Files/Pods-Phyte/Pods-Phyte.release.xcconfig"; sourceTree = "<group>"; };
 		3DA55BA42516DA72008417D1 /* Phyte.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Phyte.storyboard; sourceTree = "<group>"; };
+		3DA55BA6251703D7008417D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3DD9697325168FEE0082586F /* Phyte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phyte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD9697625168FEE0082586F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DD9697825168FEE0082586F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		3DD9697F25168FF40082586F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DD9698225168FF40082586F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DD9698425168FF40082586F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BCD17F95953C9B4C532C4AF /* Pods-Phyte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phyte.debug.xcconfig"; path = "Target Support Files/Pods-Phyte/Pods-Phyte.debug.xcconfig"; sourceTree = "<group>"; };
+		709763A6B9DE20D2912C709D /* Pods_Phyte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phyte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8531B4639F210986C1776BE0 /* Pods_Phyte.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12EA0BF06EEE486674AB69D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				709763A6B9DE20D2912C709D /* Pods_Phyte.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3DD9696A25168FED0082586F = {
 			isa = PBXGroup;
 			children = (
 				3DD9697525168FEE0082586F /* Phyte */,
 				3DD9697425168FEE0082586F /* Products */,
+				B0487F3EECF373C172A48A05 /* Pods */,
+				12EA0BF06EEE486674AB69D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +83,18 @@
 				3DD9697F25168FF40082586F /* Assets.xcassets */,
 				3DD9698125168FF40082586F /* LaunchScreen.storyboard */,
 				3DD9698425168FF40082586F /* Info.plist */,
+				3DA55BA6251703D7008417D1 /* GoogleService-Info.plist */,
 			);
 			path = Phyte;
+			sourceTree = "<group>";
+		};
+		B0487F3EECF373C172A48A05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BCD17F95953C9B4C532C4AF /* Pods-Phyte.debug.xcconfig */,
+				1CD4B28F66B996D84F14D745 /* Pods-Phyte.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DD9698725168FF40082586F /* Build configuration list for PBXNativeTarget "Phyte" */;
 			buildPhases = (
+				C9D7655214452116DAB2B922 /* [CP] Check Pods Manifest.lock */,
 				3DD9696F25168FED0082586F /* Sources */,
 				3DD9697025168FED0082586F /* Frameworks */,
 				3DD9697125168FED0082586F /* Resources */,
+				E84DB2AD530740016D38AA37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +159,55 @@
 			files = (
 				3DD9698325168FF40082586F /* LaunchScreen.storyboard in Resources */,
 				3DA55BA52516DA72008417D1 /* Phyte.storyboard in Resources */,
+				3DA55BA7251703D7008417D1 /* GoogleService-Info.plist in Resources */,
 				3DD9698025168FF40082586F /* Assets.xcassets in Resources */,
 				3DD9697E25168FEE0082586F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9D7655214452116DAB2B922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Phyte-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84DB2AD530740016D38AA37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phyte/Pods-Phyte-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Phyte/Pods-Phyte-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Phyte/Pods-Phyte-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DD9696F25168FED0082586F /* Sources */ = {
@@ -286,6 +358,7 @@
 		};
 		3DD9698825168FF40082586F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCD17F95953C9B4C532C4AF /* Pods-Phyte.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +377,7 @@
 		};
 		3DD9698925168FF40082586F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD4B28F66B996D84F14D745 /* Pods-Phyte.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
