@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DA55BA52516DA72008417D1 /* Phyte.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA55BA42516DA72008417D1 /* Phyte.storyboard */; };
 		3DD9697725168FEE0082586F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697625168FEE0082586F /* AppDelegate.swift */; };
 		3DD9697925168FEE0082586F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697825168FEE0082586F /* SceneDelegate.swift */; };
 		3DD9697B25168FEE0082586F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD9697A25168FEE0082586F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DA55BA42516DA72008417D1 /* Phyte.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Phyte.storyboard; sourceTree = "<group>"; };
 		3DD9697325168FEE0082586F /* Phyte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phyte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD9697625168FEE0082586F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DD9697825168FEE0082586F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				3DD9697825168FEE0082586F /* SceneDelegate.swift */,
 				3DD9697A25168FEE0082586F /* ViewController.swift */,
 				3DD9697C25168FEE0082586F /* Main.storyboard */,
+				3DA55BA42516DA72008417D1 /* Phyte.storyboard */,
 				3DD9697F25168FF40082586F /* Assets.xcassets */,
 				3DD9698125168FF40082586F /* LaunchScreen.storyboard */,
 				3DD9698425168FF40082586F /* Info.plist */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DD9698325168FF40082586F /* LaunchScreen.storyboard in Resources */,
+				3DA55BA52516DA72008417D1 /* Phyte.storyboard in Resources */,
 				3DD9698025168FF40082586F /* Assets.xcassets in Resources */,
 				3DD9697E25168FEE0082586F /* Main.storyboard in Resources */,
 			);
